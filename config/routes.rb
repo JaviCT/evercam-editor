@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'static_pages/about'
 
+  get 'static_pages/evercam'
+
   resources :users
   resources :microposts
   #get 'wellcome/index'
